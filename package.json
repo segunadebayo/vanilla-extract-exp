@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vanilla": "node scripts/build.mjs"
+    "prepare": "esr scripts/build.mjs"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.7.0",
@@ -25,6 +25,7 @@
     "@types/react-dom": "18.0.3",
     "@vanilla-extract/rollup-plugin": "^1.0.2",
     "eslint": "8.15.0",
+    "esbuild-runner": "2.2.1",
     "eslint-config-next": "12.1.6",
     "fast-glob": "^3.2.11",
     "fs-extra": "^10.1.0",
