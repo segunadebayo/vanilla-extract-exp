@@ -24,6 +24,7 @@
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.3",
     "@vanilla-extract/rollup-plugin": "^1.0.2",
+    "@vanilla-extract/sprinkles": "^1.4.1",
     "eslint": "8.15.0",
     "esbuild-runner": "2.2.1",
     "eslint-config-next": "12.1.6",

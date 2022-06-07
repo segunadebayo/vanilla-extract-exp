@@ -32,4 +32,15 @@ export const vars = createGlobalTheme(":root", {
     halfGap: "12px",
     quarterGap: "6px",
   },
+  fontSize: {
+    small: "12px",
+    medium: "16px",
+    large: "24px",
+    extraLarge: "32px",
+  },
+  fontWeight: {
+    regular: "400",
+    medium: "600",
+    bold: "700",
+  },
 });
